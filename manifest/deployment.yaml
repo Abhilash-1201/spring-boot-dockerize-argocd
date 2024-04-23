@@ -1,22 +1,22 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: fluence-deployment
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: angular-app
-  template:
-    metadata:
-      labels:
-        app: angular-app
-    spec:
-      containers:
-      - name: my-angular-app
-        image: fluenceinternal.jfrog.io/circleci-repo/appcicd:${CIRCLE_BUILD_NUM}
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8085
-      imagePullSecrets:
-      - name: artifactory-creds02
+appcicd:98aappcicd:98pappcicd:98iappcicd:98Vappcicd:98eappcicd:98rappcicd:98sappcicd:98iappcicd:98oappcicd:98nappcicd:98:appcicd:98aappcicd:98pappcicd:98pappcicd:98sappcicd:98/appcicd:98vappcicd:981appcicd:98
+appcicd:98kappcicd:98iappcicd:98nappcicd:98dappcicd:98:appcicd:98Dappcicd:98eappcicd:98pappcicd:98lappcicd:98oappcicd:98yappcicd:98mappcicd:98eappcicd:98nappcicd:98tappcicd:98
+appcicd:98mappcicd:98eappcicd:98tappcicd:98aappcicd:98dappcicd:98aappcicd:98tappcicd:98aappcicd:98:appcicd:98
+appcicd:98nappcicd:98aappcicd:98mappcicd:98eappcicd:98:appcicd:98fappcicd:98lappcicd:98uappcicd:98eappcicd:98nappcicd:98cappcicd:98eappcicd:98-appcicd:98dappcicd:98eappcicd:98pappcicd:98lappcicd:98oappcicd:98yappcicd:98mappcicd:98eappcicd:98nappcicd:98tappcicd:98
+appcicd:98sappcicd:98pappcicd:98eappcicd:98cappcicd:98:appcicd:98
+appcicd:98rappcicd:98eappcicd:98pappcicd:98lappcicd:98iappcicd:98cappcicd:98aappcicd:98sappcicd:98:appcicd:982appcicd:98
+appcicd:98sappcicd:98eappcicd:98lappcicd:98eappcicd:98cappcicd:98tappcicd:98oappcicd:98rappcicd:98:appcicd:98
+appcicd:98mappcicd:98aappcicd:98tappcicd:98cappcicd:98happcicd:98Lappcicd:98aappcicd:98bappcicd:98eappcicd:98lappcicd:98sappcicd:98:appcicd:98
+appcicd:98aappcicd:98pappcicd:98pappcicd:98:appcicd:98aappcicd:98nappcicd:98gappcicd:98uappcicd:98lappcicd:98aappcicd:98rappcicd:98-appcicd:98aappcicd:98pappcicd:98pappcicd:98
+appcicd:98tappcicd:98eappcicd:98mappcicd:98pappcicd:98lappcicd:98aappcicd:98tappcicd:98eappcicd:98:appcicd:98
+appcicd:98mappcicd:98eappcicd:98tappcicd:98aappcicd:98dappcicd:98aappcicd:98tappcicd:98aappcicd:98:appcicd:98
+appcicd:98lappcicd:98aappcicd:98bappcicd:98eappcicd:98lappcicd:98sappcicd:98:appcicd:98
+appcicd:98aappcicd:98pappcicd:98pappcicd:98:appcicd:98aappcicd:98nappcicd:98gappcicd:98uappcicd:98lappcicd:98aappcicd:98rappcicd:98-appcicd:98aappcicd:98pappcicd:98pappcicd:98
+appcicd:98sappcicd:98pappcicd:98eappcicd:98cappcicd:98:appcicd:98
+appcicd:98cappcicd:98oappcicd:98nappcicd:98tappcicd:98aappcicd:98iappcicd:98nappcicd:98eappcicd:98rappcicd:98sappcicd:98:appcicd:98
+appcicd:98-appcicd:98nappcicd:98aappcicd:98mappcicd:98eappcicd:98:appcicd:98mappcicd:98yappcicd:98-appcicd:98aappcicd:98nappcicd:98gappcicd:98uappcicd:98lappcicd:98aappcicd:98rappcicd:98-appcicd:98aappcicd:98pappcicd:98pappcicd:98
+appcicd:98iappcicd:98mappcicd:98aappcicd:98gappcicd:98eappcicd:98:appcicd:98fappcicd:98lappcicd:98uappcicd:98eappcicd:98nappcicd:98cappcicd:98eappcicd:98iappcicd:98nappcicd:98tappcicd:98eappcicd:98rappcicd:98nappcicd:98aappcicd:98lappcicd:98.appcicd:98jappcicd:98fappcicd:98rappcicd:98oappcicd:98gappcicd:98.appcicd:98iappcicd:98oappcicd:98/appcicd:98cappcicd:98iappcicd:98rappcicd:98cappcicd:98lappcicd:98eappcicd:98cappcicd:98iappcicd:98-appcicd:98rappcicd:98eappcicd:98pappcicd:98oappcicd:98/appcicd:98aappcicd:98pappcicd:98pappcicd:98cappcicd:98iappcicd:98cappcicd:98dappcicd:98:appcicd:98$appcicd:98{appcicd:98Cappcicd:98Iappcicd:98Rappcicd:98Cappcicd:98Lappcicd:98Eappcicd:98_appcicd:98Bappcicd:98Uappcicd:98Iappcicd:98Lappcicd:98Dappcicd:98_appcicd:98Nappcicd:98Uappcicd:98Mappcicd:98}appcicd:98
+appcicd:98iappcicd:98mappcicd:98aappcicd:98gappcicd:98eappcicd:98Pappcicd:98uappcicd:98lappcicd:98lappcicd:98Pappcicd:98oappcicd:98lappcicd:98iappcicd:98cappcicd:98yappcicd:98:appcicd:98Aappcicd:98lappcicd:98wappcicd:98aappcicd:98yappcicd:98sappcicd:98
+appcicd:98pappcicd:98oappcicd:98rappcicd:98tappcicd:98sappcicd:98:appcicd:98
+appcicd:98-appcicd:98cappcicd:98oappcicd:98nappcicd:98tappcicd:98aappcicd:98iappcicd:98nappcicd:98eappcicd:98rappcicd:98Pappcicd:98oappcicd:98rappcicd:98tappcicd:98:appcicd:988appcicd:980appcicd:988appcicd:985appcicd:98
+appcicd:98iappcicd:98mappcicd:98aappcicd:98gappcicd:98eappcicd:98Pappcicd:98uappcicd:98lappcicd:98lappcicd:98Sappcicd:98eappcicd:98cappcicd:98rappcicd:98eappcicd:98tappcicd:98sappcicd:98:appcicd:98
+appcicd:98-appcicd:98nappcicd:98aappcicd:98mappcicd:98eappcicd:98:appcicd:98aappcicd:98rappcicd:98tappcicd:98iappcicd:98fappcicd:98aappcicd:98cappcicd:98tappcicd:98oappcicd:98rappcicd:98yappcicd:98-appcicd:98cappcicd:98rappcicd:98eappcicd:98dappcicd:98sappcicd:980appcicd:982appcicd:98
