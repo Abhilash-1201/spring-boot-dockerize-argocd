@@ -1,22 +1,22 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: fluence-deployment
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: angular-app
-  template:
-    metadata:
-      labels:
-        app: angular-app
-    spec:
-      containers:
-      - name: my-angular-app
-        image: fluenceinternal.jfrog.io/circleci-repo/appcicd:${CIRCLE_BUILD_NUM}
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8085
-      imagePullSecrets:
-      - name: artifactory-creds02
+appcicd:99aappcicd:99pappcicd:99iappcicd:99Vappcicd:99eappcicd:99rappcicd:99sappcicd:99iappcicd:99oappcicd:99nappcicd:99:appcicd:99aappcicd:99pappcicd:99pappcicd:99sappcicd:99/appcicd:99vappcicd:991appcicd:99
+appcicd:99kappcicd:99iappcicd:99nappcicd:99dappcicd:99:appcicd:99Dappcicd:99eappcicd:99pappcicd:99lappcicd:99oappcicd:99yappcicd:99mappcicd:99eappcicd:99nappcicd:99tappcicd:99
+appcicd:99mappcicd:99eappcicd:99tappcicd:99aappcicd:99dappcicd:99aappcicd:99tappcicd:99aappcicd:99:appcicd:99
+appcicd:99nappcicd:99aappcicd:99mappcicd:99eappcicd:99:appcicd:99fappcicd:99lappcicd:99uappcicd:99eappcicd:99nappcicd:99cappcicd:99eappcicd:99-appcicd:99dappcicd:99eappcicd:99pappcicd:99lappcicd:99oappcicd:99yappcicd:99mappcicd:99eappcicd:99nappcicd:99tappcicd:99
+appcicd:99sappcicd:99pappcicd:99eappcicd:99cappcicd:99:appcicd:99
+appcicd:99rappcicd:99eappcicd:99pappcicd:99lappcicd:99iappcicd:99cappcicd:99aappcicd:99sappcicd:99:appcicd:992appcicd:99
+appcicd:99sappcicd:99eappcicd:99lappcicd:99eappcicd:99cappcicd:99tappcicd:99oappcicd:99rappcicd:99:appcicd:99
+appcicd:99mappcicd:99aappcicd:99tappcicd:99cappcicd:99happcicd:99Lappcicd:99aappcicd:99bappcicd:99eappcicd:99lappcicd:99sappcicd:99:appcicd:99
+appcicd:99aappcicd:99pappcicd:99pappcicd:99:appcicd:99aappcicd:99nappcicd:99gappcicd:99uappcicd:99lappcicd:99aappcicd:99rappcicd:99-appcicd:99aappcicd:99pappcicd:99pappcicd:99
+appcicd:99tappcicd:99eappcicd:99mappcicd:99pappcicd:99lappcicd:99aappcicd:99tappcicd:99eappcicd:99:appcicd:99
+appcicd:99mappcicd:99eappcicd:99tappcicd:99aappcicd:99dappcicd:99aappcicd:99tappcicd:99aappcicd:99:appcicd:99
+appcicd:99lappcicd:99aappcicd:99bappcicd:99eappcicd:99lappcicd:99sappcicd:99:appcicd:99
+appcicd:99aappcicd:99pappcicd:99pappcicd:99:appcicd:99aappcicd:99nappcicd:99gappcicd:99uappcicd:99lappcicd:99aappcicd:99rappcicd:99-appcicd:99aappcicd:99pappcicd:99pappcicd:99
+appcicd:99sappcicd:99pappcicd:99eappcicd:99cappcicd:99:appcicd:99
+appcicd:99cappcicd:99oappcicd:99nappcicd:99tappcicd:99aappcicd:99iappcicd:99nappcicd:99eappcicd:99rappcicd:99sappcicd:99:appcicd:99
+appcicd:99-appcicd:99nappcicd:99aappcicd:99mappcicd:99eappcicd:99:appcicd:99mappcicd:99yappcicd:99-appcicd:99aappcicd:99nappcicd:99gappcicd:99uappcicd:99lappcicd:99aappcicd:99rappcicd:99-appcicd:99aappcicd:99pappcicd:99pappcicd:99
+appcicd:99iappcicd:99mappcicd:99aappcicd:99gappcicd:99eappcicd:99:appcicd:99fappcicd:99lappcicd:99uappcicd:99eappcicd:99nappcicd:99cappcicd:99eappcicd:99iappcicd:99nappcicd:99tappcicd:99eappcicd:99rappcicd:99nappcicd:99aappcicd:99lappcicd:99.appcicd:99jappcicd:99fappcicd:99rappcicd:99oappcicd:99gappcicd:99.appcicd:99iappcicd:99oappcicd:99/appcicd:99cappcicd:99iappcicd:99rappcicd:99cappcicd:99lappcicd:99eappcicd:99cappcicd:99iappcicd:99-appcicd:99rappcicd:99eappcicd:99pappcicd:99oappcicd:99/appcicd:99aappcicd:99pappcicd:99pappcicd:99cappcicd:99iappcicd:99cappcicd:99dappcicd:99:appcicd:99$appcicd:99{appcicd:99Cappcicd:99Iappcicd:99Rappcicd:99Cappcicd:99Lappcicd:99Eappcicd:99_appcicd:99Bappcicd:99Uappcicd:99Iappcicd:99Lappcicd:99Dappcicd:99_appcicd:99Nappcicd:99Uappcicd:99Mappcicd:99}appcicd:99
+appcicd:99iappcicd:99mappcicd:99aappcicd:99gappcicd:99eappcicd:99Pappcicd:99uappcicd:99lappcicd:99lappcicd:99Pappcicd:99oappcicd:99lappcicd:99iappcicd:99cappcicd:99yappcicd:99:appcicd:99Aappcicd:99lappcicd:99wappcicd:99aappcicd:99yappcicd:99sappcicd:99
+appcicd:99pappcicd:99oappcicd:99rappcicd:99tappcicd:99sappcicd:99:appcicd:99
+appcicd:99-appcicd:99cappcicd:99oappcicd:99nappcicd:99tappcicd:99aappcicd:99iappcicd:99nappcicd:99eappcicd:99rappcicd:99Pappcicd:99oappcicd:99rappcicd:99tappcicd:99:appcicd:998appcicd:990appcicd:998appcicd:995appcicd:99
+appcicd:99iappcicd:99mappcicd:99aappcicd:99gappcicd:99eappcicd:99Pappcicd:99uappcicd:99lappcicd:99lappcicd:99Sappcicd:99eappcicd:99cappcicd:99rappcicd:99eappcicd:99tappcicd:99sappcicd:99:appcicd:99
+appcicd:99-appcicd:99nappcicd:99aappcicd:99mappcicd:99eappcicd:99:appcicd:99aappcicd:99rappcicd:99tappcicd:99iappcicd:99fappcicd:99aappcicd:99cappcicd:99tappcicd:99oappcicd:99rappcicd:99yappcicd:99-appcicd:99cappcicd:99rappcicd:99eappcicd:99dappcicd:99sappcicd:990appcicd:992appcicd:99
