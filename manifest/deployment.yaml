@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-angular-app
-        image: fluenceinternal.jfrog.io/circleci-repo/appcicd:0.1.102
+        image: fluenceinternal.jfrog.io/circleci-repo/appcicd:0.1.103
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
